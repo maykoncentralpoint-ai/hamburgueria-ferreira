@@ -84,7 +84,72 @@ textarea{min-height:70px;resize:vertical}
 <h2>🍔 Hambúrgueres</h2>
 
 </main>
+<section class="cardapio">
+  <h2>Nosso Cardápio</h2>
 
+  <label class="item">
+    <div>
+      <h3>🍔 X-Burguer</h3>
+      <p>Pão, carne, queijo, alface, tomate e molho especial</p>
+      <strong>R$ 18,90</strong>
+    </div>
+    <input type="checkbox" name="order" value="X-Burguer|18.90">
+  </label>
+
+  <label class="item">
+    <div>
+      <h3>🧀 X-Cheddar</h3>
+      <p>Pão, carne, muito cheddar e bacon</p>
+      <strong>R$ 22,90</strong>
+    </div>
+    <input type="checkbox" name="order" value="X-Cheddar|22.90">
+  </label>
+
+  <label class="item">
+    <div>
+      <h3>🥓 X-Bacon</h3>
+      <p>Pão, carne, queijo, bacon crocante e ovo</p>
+      <strong>R$ 23,90</strong>
+    </div>
+    <input type="checkbox" name="order" value="X-Bacon|23.90">
+  </label>
+
+  <label class="item">
+    <div>
+      <h3>🔥 X-Tudo</h3>
+      <p>Pão, 2 carnes, queijo, bacon, calabresa, ovo, presunto e salada</p>
+      <strong>R$ 29,90</strong>
+    </div>
+    <input type="checkbox" name="order" value="X-Tudo|29.90">
+  </label>
+
+  <label class="item">
+    <div>
+      <h3>🍗 X-Frango</h3>
+      <p>Pão, filé de frango grelhado, queijo e salada</p>
+      <strong>R$ 19,90</strong>
+    </div>
+    <input type="checkbox" name="order" value="X-Frango|19.90">
+  </label>
+
+  <label class="item">
+    <div>
+      <h3>🥤 Refrigerante Lata</h3>
+      <p>Coca-Cola, Guaraná, Fanta</p>
+      <strong>R$ 5,00</strong>
+    </div>
+    <input type="checkbox" name="order" value="Refrigerante Lata|5.00">
+  </label>
+
+  <label class="item">
+    <div>
+      <h3>🍟 Batata Frita</h3>
+      <p>Porção crocante</p>
+      <strong>R$ 12,00</strong>
+    </div>
+    <input type="checkbox" name="order" value="Batata Frita|12.00">
+  </label>
+</section>
 <div class="bottom"><button class="checkout" onclick="openOrder()">🛒 Finalizar pedido <span id="count" class="badge">0</span></button></div>
 
 <div class="modal" id="modal">
